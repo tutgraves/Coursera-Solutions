@@ -1,0 +1,334 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+/*For Global view (Desktop)*/
+#title {
+    text-align: center;
+}
+
+.menue_item1{
+    background-color: #999999;
+    border: 1px solid black;
+    position: fixed;
+    margin-left: 20px;
+    padding-left: 12px;
+    height: 180px;
+    width: 392px;
+    /* width: 387px; */
+    top: 256px;
+}
+
+.menue_item1 p {
+    position: relative;
+    padding-top: 30px;
+    bottom: 15px;
+}
+
+#chicken {
+    background-color: #D59898;
+    border: 1px solid black;
+    position: relative;
+    text-decoration: solid;
+    width: 115px;
+    height: 28px;
+    left: 309px;
+    top: 170px;
+}
+
+#chicken p {
+    position: relative;
+    padding-left: 23px;
+    bottom: 17px;
+}
+
+.menue_item2 {
+    background-color: #999999;
+    border: 1px solid black;
+    position: fixed;
+    display: block;
+    padding-left: 12px;
+    height: 180px;
+    width: 392px;
+    top: 256px;
+    left: 485px;
+    right: 877px;
+}
+
+.menue_item2 p {
+    position: relative;
+    padding-top: 25px; 
+    bottom: 15px;
+}
+
+#beef {
+    background-color: #C14543;
+    border: 1px solid black;
+    position: relative;
+    text-decoration: solid;
+    width: 115px;
+    height: 28px;
+    left: 766px;
+    top: 140px;
+    /* 122 */
+}
+
+#beef p {
+    color: white;
+    position: relative;
+    padding-left: 38px;
+    bottom: 17px;
+}
+
+.menue_item3 {
+    background-color: #999999;
+    border: 1px solid black;
+    position: fixed;
+    display: block;
+    padding-left: 12px;
+    height: 180px;
+    width: 392px;
+    top: 256px;
+    left: 935px;
+    right: 1283px;
+}
+
+.menue_item3 p {
+    position: relative;
+    padding-top: 25px; 
+    bottom: 15px;
+}
+
+#sushi {
+    background-color: #C9B9A6;
+    border: 1px solid black;
+    position: relative;
+    text-decoration: solid;
+    width: 115px;
+    height: 28px;
+    left: 1216px;
+    top: 110px;
+}
+
+#sushi p {
+    position: relative;
+    padding-left: 38px;
+    bottom: 17px;
+}
+
+/*For screens that are between 768px and 991px (Tablet) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+.menue_item1{
+        background-color: #999999;
+        position: absolute;
+        margin-left: 1px;
+        padding-left: 12px;
+        height: 180px; 
+        width: 318px;
+        top: 195px;
+    }
+    
+.menue_item1 p {
+        position: relative;
+        padding-top: 30px;
+        bottom: 15px;
+    }
+
+#chicken {
+        background-color: #D59898;
+        position: absolute;
+        text-decoration: solid;
+        width: 115px;
+        height: 28px;
+        left: 224px;
+        top: 195px;
+    }
+    
+#chicken p {
+        position: absolute;
+        padding-left: 23px;
+        bottom: -17px;
+    }
+
+.menue_item2 {
+        background-color: #999999;
+        position: absolute;
+        margin-left: 1px;
+        padding-left: 12px;
+        height: 225px;
+        width: 318px;
+        top: 195px;
+        left: 355px; 
+        right: 877px; 
+    }
+    
+.menue_item2 p {
+        position: relative;
+        padding-top: 25px; 
+        bottom: 15px;
+    }
+    
+#beef {
+        background-color: #C14543;
+        position: absolute;
+        text-decoration: solid;
+        width: 115px;
+        height: 28px;
+        left: 571px;
+        top: 195px;
+    }
+    
+#beef p {
+        color: white;
+        position: absolute;
+        padding-left: 35px;
+        /* To keep text align in box */
+        bottom: -17px;
+    }
+
+.menue_item3 {
+        background-color: #999999;
+        position: absolute;
+        display: block;
+        padding-left: 12px;
+        height: 160px;
+        width: 665px;
+        top: 450px;
+        left: 9px;
+        right: 877px;
+    }
+    
+.menue_item3 p {
+        position: relative;
+        padding-top: 25px; 
+        bottom: 15px;
+    }
+    
+#sushi {
+        background-color: #C9B9A6;
+        position: absolute;
+        text-decoration: solid;
+        width: 115px;
+        height: 28px;
+        left: 571px;
+        top: 450px;
+    }
+    
+#sushi p {
+        position: absolute;
+        padding-left: 35px;
+        bottom: -17px;
+    }
+    
+}
+
+/*For screens that are equal to or less than 767px (Mobile)  */
+@media screen and (max-width: 767px) {
+.menue_item1{
+        background-color: #999999;
+        position: absolute;
+        margin-left: 18px;
+        padding-left: 12px;
+        height: 180px; 
+        width: 354px;
+        top: 142px;
+    }
+    
+.menue_item1 p {
+        position: relative;
+        padding-top: 30px;
+        bottom: 15px;
+    }
+
+#chicken {
+        background-color: #D59898;
+        position: absolute;
+        text-decoration: solid;
+        width: 115px;
+        height: 28px;
+        left: 277px;
+        top: 142px;
+    }
+    
+#chicken p {
+        position: absolute;
+        padding-left: 23px;
+        bottom: -17px;
+    }
+
+    .menue_item2 {
+        background-color: #999999;
+        position: absolute;
+        margin-left: 18px;
+        padding-left: 12px;
+        height: 200px;
+        width: 354px;
+        /* 318 */
+        top: 340px;
+        left: 8px; 
+        right: 877px; 
+    }
+    
+.menue_item2 p {
+        position: relative;
+        padding-top: 25px; 
+        bottom: 15px;
+    }
+    
+#beef {
+        background-color: #C14543;
+        position: absolute;
+        text-decoration: solid;
+        width: 115px;
+        height: 28px;
+        left: 277px;
+        /* 571 */
+        top: 340px;
+    }
+    
+#beef p {
+        color: white;
+        position: absolute;
+        padding-left: 35px;
+        /* To keep text align in box */
+        bottom: -17px;
+    }
+
+.menue_item3 {
+        background-color: #999999;
+        position: absolute;
+        display: block;
+        padding-left: 12px;
+        height: 200px;
+        width: 359px;
+        top: 560px;
+        left: 24px;
+        right: 877px;
+    }
+    
+.menue_item3 p {
+        position: relative;
+        padding-top: 25px; 
+        bottom: 15px;
+    }
+    
+#sushi {
+        background-color: #C9B9A6;
+        position: absolute;
+        text-decoration: solid;
+        width: 115px;
+        height: 28px;
+        left: 280px;
+        top: 560px;
+    }
+    
+#sushi p {
+        position: absolute;
+        padding-left: 35px;
+        bottom: -17px;
+    }
+
+}
